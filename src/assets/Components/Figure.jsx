@@ -1,7 +1,6 @@
 import '../../index.css'
-import logo from '../Images/logo.png'
 
-function Figure({classF, classImg}) {
+function Figure({classF, classImg, logo}) {
     return ( 
         <figure className={classF}>
             <img className={classImg} src={logo} />
