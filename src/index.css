@@ -33,7 +33,7 @@ body{
   align-items: center;
   justify-content: space-between;
   
-  --url-menu: url(../images/menu.svg);
+  --url-menu: url(../src/assets/Images/menu.svg);
   --menu-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   --pointer-menu: none;
   position: fixed;
@@ -44,7 +44,7 @@ body{
 }
 
 .nav:has( :checked ){
-  --url-menu: url(../images/close.svg);
+  --url-menu: url(../src/assets/Images/close.svg);
   /* --opacity-menu: 1; */
   --menu-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   --pointer-menu: unset;
